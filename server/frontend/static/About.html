@@ -1,7 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Link the style sheet here -->
+  <meta charset="UTF-8">
+  <title>About Us - Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
@@ -25,44 +30,46 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
-    </div>
-    </div>
+  <div class="card" style="width: 80%;margin: auto; margin-top:5%; padding: 20px;">
+    <div class="banner" name="about-header" style="text-align: center; margin-bottom: 30px;">
+      <h1>About Cars Dealership</h1>
+      <p style="font-size: 1.15rem; color: #555; max-width: 800px; margin: auto;">
+        Welcome to Cars Dealership, your premier national destination for certified pre-owned and new vehicles across the United States. We are dedicated to transparent pricing, exceptional customer service, and verified customer reviews.
+      </p>
     </div>
     
-</div>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+      <div class="card" style="width: 30%; min-width: 260px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img class="card-img-top" src="/static/person.png" alt="Sarah Johnson" style="height: 220px; object-fit: contain; padding: 15px; background: #f8f9fa;">
+        <div class="card-body text-center">
+          <h4 class="title" style="font-weight: bold; color: #333;">Sarah Johnson</h4>
+          <p class="text-primary font-weight-bold" style="font-size: 1.05rem;">Chief Executive Officer</p>
+          <p class="card-text text-muted" style="font-size: 0.95rem;">Sarah leads our national dealership strategy with over 18 years in executive automotive retail and customer experience innovation.</p>
+          <p><a href="mailto:sarah.johnson@dealership.com" style="color: darkturquoise; font-weight: 500;">sarah.johnson@dealership.com</a></p>
+        </div>
+      </div>
 
+      <div class="card" style="width: 30%; min-width: 260px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img class="card-img-top" src="/static/person.png" alt="Michael Chang" style="height: 220px; object-fit: contain; padding: 15px; background: #f8f9fa;">
+        <div class="card-body text-center">
+          <h4 class="title" style="font-weight: bold; color: #333;">Michael Chang</h4>
+          <p class="text-primary font-weight-bold" style="font-size: 1.05rem;">Head of Automotive Operations</p>
+          <p class="card-text text-muted" style="font-size: 0.95rem;">Michael oversees branch inventory logistics, manufacturer partnerships, and certified vehicle inspections across all locations.</p>
+          <p><a href="mailto:michael.chang@dealership.com" style="color: darkturquoise; font-weight: 500;">michael.chang@dealership.com</a></p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%; min-width: 260px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img class="card-img-top" src="/static/person.png" alt="Emily Rodriguez" style="height: 220px; object-fit: contain; padding: 15px; background: #f8f9fa;">
+        <div class="card-body text-center">
+          <h4 class="title" style="font-weight: bold; color: #333;">Emily Rodriguez</h4>
+          <p class="text-primary font-weight-bold" style="font-size: 1.05rem;">Director of Customer Relations</p>
+          <p class="card-text text-muted" style="font-size: 0.95rem;">Emily champions customer satisfaction, ensuring buyer sentiment is tracked and every customer inquiry is resolved promptly.</p>
+          <p><a href="mailto:emily.rodriguez@dealership.com" style="color: darkturquoise; font-weight: 500;">emily.rodriguez@dealership.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
